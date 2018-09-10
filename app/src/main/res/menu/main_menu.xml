@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/friends"
+        android:title="친구목록"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/chat"
+        android:title="채팅"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/store"
+        android:title="상점"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/settings"
+        android:title="설정"
+        app:showAsAction="never"
+        />
+
+
+</menu>
